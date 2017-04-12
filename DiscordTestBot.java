@@ -30,7 +30,7 @@ public class DiscordTestBot extends ListenerAdapter {
         }
         catch (InterruptedException e) {
             
-            e.printStackTrace();
+            e.printStackTrace(); 
         }
         catch (RateLimitedException e) {
             e.printStackTrace();
